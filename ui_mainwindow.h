@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.12
+** Created by: Qt User Interface Compiler version 6.5.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -46,12 +46,12 @@ public:
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+            MainWindow->setObjectName("MainWindow");
         MainWindow->resize(237, 366);
         centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName("label");
         label->setGeometry(QRect(0, 0, 231, 71));
         QFont font;
         font.setPointSize(18);
@@ -62,22 +62,22 @@ public:
 "}\n"
 "background-color : white;"));
         pushButton_clear = new QPushButton(centralwidget);
-        pushButton_clear->setObjectName(QString::fromUtf8("pushButton_clear"));
+        pushButton_clear->setObjectName("pushButton_clear");
         pushButton_clear->setGeometry(QRect(-1, 70, 61, 61));
         QFont font1;
         font1.setPointSize(12);
         pushButton_clear->setFont(font1);
         pushButton_clear->setToolTipDuration(0);
         pushButton_plus_minus = new QPushButton(centralwidget);
-        pushButton_plus_minus->setObjectName(QString::fromUtf8("pushButton_plus_minus"));
+        pushButton_plus_minus->setObjectName("pushButton_plus_minus");
         pushButton_plus_minus->setGeometry(QRect(58, 70, 61, 61));
         pushButton_plus_minus->setFont(font1);
         pushButton_percent = new QPushButton(centralwidget);
-        pushButton_percent->setObjectName(QString::fromUtf8("pushButton_percent"));
+        pushButton_percent->setObjectName("pushButton_percent");
         pushButton_percent->setGeometry(QRect(117, 70, 61, 61));
         pushButton_percent->setFont(font1);
         pushButton_divide = new QPushButton(centralwidget);
-        pushButton_divide->setObjectName(QString::fromUtf8("pushButton_divide"));
+        pushButton_divide->setObjectName("pushButton_divide");
         pushButton_divide->setGeometry(QRect(176, 70, 61, 61));
         pushButton_divide->setFont(font1);
         pushButton_divide->setStyleSheet(QString::fromUtf8("QPushButton {\n"
@@ -91,11 +91,11 @@ public:
 "								stop: 0 #FF7832, stop: 1 #FF9739);\n"
 "}"));
         pushButton_8 = new QPushButton(centralwidget);
-        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
+        pushButton_8->setObjectName("pushButton_8");
         pushButton_8->setGeometry(QRect(58, 129, 61, 61));
         pushButton_8->setFont(font1);
         pushButton_multiply = new QPushButton(centralwidget);
-        pushButton_multiply->setObjectName(QString::fromUtf8("pushButton_multiply"));
+        pushButton_multiply->setObjectName("pushButton_multiply");
         pushButton_multiply->setGeometry(QRect(176, 129, 61, 61));
         pushButton_multiply->setFont(font1);
         pushButton_multiply->setStyleSheet(QString::fromUtf8("QPushButton {\n"
@@ -109,19 +109,19 @@ public:
 "								stop: 0 #FF7832, stop: 1 #FF9739);\n"
 "}"));
         pushButton_7 = new QPushButton(centralwidget);
-        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+        pushButton_7->setObjectName("pushButton_7");
         pushButton_7->setGeometry(QRect(-1, 129, 61, 61));
         pushButton_7->setFont(font1);
         pushButton_9 = new QPushButton(centralwidget);
-        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
+        pushButton_9->setObjectName("pushButton_9");
         pushButton_9->setGeometry(QRect(117, 129, 61, 61));
         pushButton_9->setFont(font1);
         pushButton_5 = new QPushButton(centralwidget);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        pushButton_5->setObjectName("pushButton_5");
         pushButton_5->setGeometry(QRect(58, 188, 61, 61));
         pushButton_5->setFont(font1);
         pushButton_minus = new QPushButton(centralwidget);
-        pushButton_minus->setObjectName(QString::fromUtf8("pushButton_minus"));
+        pushButton_minus->setObjectName("pushButton_minus");
         pushButton_minus->setGeometry(QRect(176, 188, 61, 61));
         pushButton_minus->setFont(font1);
         pushButton_minus->setStyleSheet(QString::fromUtf8("QPushButton {\n"
@@ -135,15 +135,15 @@ public:
 "								stop: 0 #FF7832, stop: 1 #FF9739);\n"
 "}"));
         pushButton_4 = new QPushButton(centralwidget);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(-1, 188, 61, 61));
         pushButton_4->setFont(font1);
         pushButton_6 = new QPushButton(centralwidget);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
+        pushButton_6->setObjectName("pushButton_6");
         pushButton_6->setGeometry(QRect(117, 188, 61, 61));
         pushButton_6->setFont(font1);
         pushButton_equal = new QPushButton(centralwidget);
-        pushButton_equal->setObjectName(QString::fromUtf8("pushButton_equal"));
+        pushButton_equal->setObjectName("pushButton_equal");
         pushButton_equal->setGeometry(QRect(176, 306, 61, 61));
         pushButton_equal->setFont(font1);
         pushButton_equal->setStyleSheet(QString::fromUtf8("QPushButton {\n"
@@ -157,15 +157,15 @@ public:
 "								stop: 0 #FF7832, stop: 1 #FF9739);\n"
 "}"));
         pushButton_0 = new QPushButton(centralwidget);
-        pushButton_0->setObjectName(QString::fromUtf8("pushButton_0"));
+        pushButton_0->setObjectName("pushButton_0");
         pushButton_0->setGeometry(QRect(-1, 306, 120, 61));
         pushButton_0->setFont(font1);
         pushButton_point = new QPushButton(centralwidget);
-        pushButton_point->setObjectName(QString::fromUtf8("pushButton_point"));
+        pushButton_point->setObjectName("pushButton_point");
         pushButton_point->setGeometry(QRect(117, 306, 61, 61));
         pushButton_point->setFont(font1);
         pushButton_plus = new QPushButton(centralwidget);
-        pushButton_plus->setObjectName(QString::fromUtf8("pushButton_plus"));
+        pushButton_plus->setObjectName("pushButton_plus");
         pushButton_plus->setGeometry(QRect(176, 247, 61, 61));
         pushButton_plus->setFont(font1);
         pushButton_plus->setStyleSheet(QString::fromUtf8("QPushButton {\n"
@@ -179,15 +179,15 @@ public:
 "								stop: 0 #FF7832, stop: 1 #FF9739);\n"
 "}"));
         pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setObjectName("pushButton_2");
         pushButton_2->setGeometry(QRect(58, 247, 61, 61));
         pushButton_2->setFont(font1);
         pushButton_3 = new QPushButton(centralwidget);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        pushButton_3->setObjectName("pushButton_3");
         pushButton_3->setGeometry(QRect(117, 247, 61, 61));
         pushButton_3->setFont(font1);
         pushButton_1 = new QPushButton(centralwidget);
-        pushButton_1->setObjectName(QString::fromUtf8("pushButton_1"));
+        pushButton_1->setObjectName("pushButton_1");
         pushButton_1->setGeometry(QRect(-1, 247, 61, 61));
         pushButton_1->setFont(font1);
         MainWindow->setCentralWidget(centralwidget);
@@ -199,27 +199,27 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QApplication::translate("MainWindow", "0", nullptr));
-        pushButton_clear->setText(QApplication::translate("MainWindow", "AC", nullptr));
-        pushButton_plus_minus->setText(QApplication::translate("MainWindow", "+/-", nullptr));
-        pushButton_percent->setText(QApplication::translate("MainWindow", "%", nullptr));
-        pushButton_divide->setText(QApplication::translate("MainWindow", "/", nullptr));
-        pushButton_8->setText(QApplication::translate("MainWindow", "8", nullptr));
-        pushButton_multiply->setText(QApplication::translate("MainWindow", "*", nullptr));
-        pushButton_7->setText(QApplication::translate("MainWindow", "7", nullptr));
-        pushButton_9->setText(QApplication::translate("MainWindow", "9", nullptr));
-        pushButton_5->setText(QApplication::translate("MainWindow", "5", nullptr));
-        pushButton_minus->setText(QApplication::translate("MainWindow", "-", nullptr));
-        pushButton_4->setText(QApplication::translate("MainWindow", "4", nullptr));
-        pushButton_6->setText(QApplication::translate("MainWindow", "6", nullptr));
-        pushButton_equal->setText(QApplication::translate("MainWindow", "=", nullptr));
-        pushButton_0->setText(QApplication::translate("MainWindow", "0", nullptr));
-        pushButton_point->setText(QApplication::translate("MainWindow", ".", nullptr));
-        pushButton_plus->setText(QApplication::translate("MainWindow", "+", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "2", nullptr));
-        pushButton_3->setText(QApplication::translate("MainWindow", "3", nullptr));
-        pushButton_1->setText(QApplication::translate("MainWindow", "1", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        pushButton_clear->setText(QCoreApplication::translate("MainWindow", "AC", nullptr));
+        pushButton_plus_minus->setText(QCoreApplication::translate("MainWindow", "+/-", nullptr));
+        pushButton_percent->setText(QCoreApplication::translate("MainWindow", "%", nullptr));
+        pushButton_divide->setText(QCoreApplication::translate("MainWindow", "/", nullptr));
+        pushButton_8->setText(QCoreApplication::translate("MainWindow", "8", nullptr));
+        pushButton_multiply->setText(QCoreApplication::translate("MainWindow", "*", nullptr));
+        pushButton_7->setText(QCoreApplication::translate("MainWindow", "7", nullptr));
+        pushButton_9->setText(QCoreApplication::translate("MainWindow", "9", nullptr));
+        pushButton_5->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
+        pushButton_minus->setText(QCoreApplication::translate("MainWindow", "-", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("MainWindow", "4", nullptr));
+        pushButton_6->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
+        pushButton_equal->setText(QCoreApplication::translate("MainWindow", "=", nullptr));
+        pushButton_0->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        pushButton_point->setText(QCoreApplication::translate("MainWindow", ".", nullptr));
+        pushButton_plus->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "2", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("MainWindow", "3", nullptr));
+        pushButton_1->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
     } // retranslateUi
 
 };
